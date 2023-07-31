@@ -51,6 +51,7 @@ header p{
   outline: none;
   border-radius: 5px;
   transition: 0.1s ease;
+  
 }
 .form input{
   font-size: 18px;
@@ -106,4 +107,5 @@ header p{
   .qr-code img{
     width: 160px;
   }  
+  
 }
