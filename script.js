@@ -13,6 +13,8 @@ generateBtn.addEventListener("click", () => {
     qrImg.addEventListener("load", () => {
         wrapper.classList.add("active");
         generateBtn.innerText = "Generate QR Code";
+        downloadLink.style.display = 'block';
+        downloadLink.href = qrImg.src;
     });
 });
 
@@ -22,3 +24,4 @@ qrInput.addEventListener("keyup", () => {
         preValue = "";
     }
 });
+
